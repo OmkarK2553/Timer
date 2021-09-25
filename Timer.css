@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 175px;
+    background-color: rgb(10, 10, 10);
+}
+
+.cs_box{
+    background: linear-gradient(to right,#222831,#393E46,#222831);
+    border-radius: 5px;
+}
+
+h1{
+    font-family: "Orbitron";
+    color: cornsilk;
+    font-size: 50px;
+    margin: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 4px cornsilk;
+}
+
+#timerbox{    
+    background: linear-gradient(to right,#150050,#610094);
+    width: 600px;
+    border-radius: 5px;
+}
+
+#timer_head{
+    color: cornsilk;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-family: "Orbitron";
+    text-align: center;
+}
+
+.dhms{
+    display: inline;
+}
+
+#d{
+    margin-right: 35px;
+}
+
+#h{
+    margin-right: 35px;
+}
+
+#m{
+    margin-right: 25px;
+}
+
+#s{
+    margin-right: 0px;
+}
+#timer{
+    color: cornsilk;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Orbitron";
+}
+
+@media(max-width:576px){
+    body{
+        width: max-content;
+    }
+}
